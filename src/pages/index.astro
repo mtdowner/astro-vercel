@@ -5,12 +5,10 @@ import Card from '../components/Card.astro';
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1>Oh, finally a visitor! Welcome, visitor! I'm <span class="text-gradient">Missy. Just Missy.</span></h1>
+		<h1>Oh, finally a visitor! <br>Welcome, visitor! <br>I'm <span class="text-gradient">Missy. Just Missy.</span></h1>
 		<p class="instructions">
-			I like learning and getting smart. Do you? <label class="container">One
-  <input type="checkbox" checked="checked">
-  <span class="checkmark"></span>
-</label> <br />
+			I like learning and getting smart. Do you? <input type="text">
+<br />
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
@@ -39,7 +37,7 @@ import Card from '../components/Card.astro';
 
 <style>
 	:root {
-		--astro-gradient: linear-gradient(0deg, #6666ff, #6667ab);
+		--astro-gradient: linear-gradient(0deg, #6666ff, #ccccff);
 	}
 
 	h1 {
