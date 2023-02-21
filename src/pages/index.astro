@@ -7,12 +7,14 @@ import Card from '../components/Card.astro';
 	<main>
 		<h1>Oh, finally a visitor! Welcome, visitor! I'm <span class="text-gradient">Missy. Just Missy.</span></h1>
 		<p class="instructions">
-			I like learning and getting smart. Do you? <input type="checklist"   out the <code>src/pages</code> directory to get started.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+			I like learning and getting smart. Do you? <label class="container">One
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label> <br />
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
-				href="https://www.codehs.com/entermylinkhere/"
+				href="https://codehs.com/lms/assignment/95172982/"
 				title="Want to go back to school with me?"
 				body="Take a CS or web dev course with me, I promise you'll get an A!"
 			/>
@@ -22,9 +24,9 @@ import Card from '../components/Card.astro';
 				body="Or, if you don't like learning, check out Hour of Code and form a team with me."
 			/>
 			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
+				href="https://messywebdev.hashnode.dev/"
+				title="Visit my blog"
+				body="It's not super interesting."
 			/>
 			<Card
 				href="https://astro.build/chat/"
@@ -74,7 +76,7 @@ import Card from '../components/Card.astro';
 	.instructions {
 		line-height: 1.6;
 		margin: 1rem 0;
-		background: #4f39fa;
+		background: #ccccff;
 		padding: 1rem;
 		border-radius: 0.4rem;
 		color: var(--color-bg);
